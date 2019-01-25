@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-
 const Util = require('discord.js');
 
 const developers = ["462437279487754240","442670807240671252",""]
@@ -36,6 +35,4 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {
     message.channel.send(`Changing The Avatar To :**${argresult}** `);
 }
 });
-
-
 client.login(process.env.BOT_TOKEN);
