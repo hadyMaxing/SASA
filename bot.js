@@ -341,7 +341,17 @@ client.on('message', message => {
       message.channel.send(helpEmbed);
     }
 });
+ 
+client.on('message', message => {
+    if (message.content.startsWith("<@529667797689827328>"))
+    
+    message.reply("Lewis : لويس محزم المليان");
+    
+      
 
+
+
+});
 const developers = ["462437279487754240","442670807240671252",""]
 const adminprefix = "2";
 client.on('message', message => {
